@@ -21,5 +21,6 @@ router.delete("/deleteblog/:id",getBlogById)
 router.get("/getsingleblog/:id", getsingleBlog)
 router.put("/updateblog/:id",upload.single("image"), updateBlog)
 router.post("/bloglike/:id", likeBlog)
+
 module.exports = router
 
